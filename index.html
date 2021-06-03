@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Main css -->
+    <link rel="shortcut icon" href="./images/infinity-pngrepo-com.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- <p><small>Practicing css and laying out content</small></p> -->
+    <!-- Header -->
+    <header class="header ">
+             <nav class="navbar ">
+                    <a href="#" class="navbar-brand">
+                        <img src="./images/infinity-pngrepo-com.png" alt="logo" > 
+                    </a>
+                    <div class="collapse">
+                    <ul class="navbar-nav text-white">
+                        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact Me</a></li>
+                    </ul>
+                    </div>
+             </nav>
+    </header>
+    
+    <!-- landing -->
+    <section id="landing">
+        <div class="landing-description">
+             <p><small>Tech Madi</small></p>
+        <h1>Hello ,I am   <span class="name">Madi</span></h1>
+        <p>A designer , a  developer and a photographer</p>
+            <div  class="title-underline"></div>
+        </div>
+             
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container ">
+         <div class="row section-title ">
+             <div  class="title-underline"></div>
+                <h1 class="title">About Me</h1>         
+         </div>
+            <div class="row about-row">
+                <div class="col about-image">
+                    <div class="img-1">
+                                    <img  src="./images/wadi-lissa-4U1x6459Q-s-unsplash.jpg" alt="profile" >
+                    <h3>Winnie Mandela</h3>
+                    <p>Intern at Sibasi</p>
+                    </div>
+            
+                </div>
+                <div class="separator"></div>
+                <div class="col about-description">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit perspiciatis, id molestiae possimus sequi officiis expedita, iusto quidem voluptate consequatur </p>
+                    <br>
+                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit perspiciatis, id molestiae possimus sequi officiis expedita, iusto quidem voluptate consequatur </p>
+                     <br>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit perspiciatis, id molestiae possimus sequi officiis expedita, iusto quidem voluptate consequatur </p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="container">
+         <div class="row section-title ">
+                <div  class="title-underline"></div>
+                <h1 class="title">Projects</h1>         
+         </div>
+            <div class="row proj-image">
+                <div class="proj-1"></div>
+                <div class="proj-2"></div>
+                <div class="proj-3"></div>
+                <div class="proj-4"></div>
+                 <div class="proj-4"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contatct me -->
+     <section id="contact">
+         <div class="container">
+        <div class="row section-title ">
+                <div  class="title-underline"></div>
+                <h1 class="title">Contact me</h1>         
+         </div>
+         <div class="row  contact-row">
+             <div class="con-form">
+                    <form >
+                        <div class="form-group">
+                             <label  class="form-label" for="email">  Email</label>
+                             <input class="form-control" type="email" name=" email" id="email" placeholder="Email">
+                        </div>
+                         <div class="form-group">
+                             <label  class="form-label" for="text"> Subject</label>
+                             <select name="tasks" id="tasks" class="form-control">
+                                 <option value="graphic">Graphic Design</option>
+                                 <option value="software">Software Engineer</option>
+                                 <option value="analysis">Data Analysis</option>
+                                 <option value="photography">Photography</option>
+                             </select>
+                        </div>
+                         <div class="form-group">
+                             <label  class="form-label" for="email"> Message</label>
+                             <textarea  class="form-control-textArea" name="query" id="query" cols="30" rows="10" placeholder="Submit your query"></textarea>
+                        </div>
+                        <button type="submit" class="submit">Contact me</button>
+                    </form>
+             </div>
+             <div class=" class con-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d997.2285764543308!2d36.873557266645875!3d-1.2197110971528826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1622634939026!5m2!1sen!2ske" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+             </div>
+             
+         </div>
+         </div>
+          
+     </section>
+     <!-- footer -->
+<footer>
+    <div class="copy">
+        &copy; June 2,2021
+    </div>
+    <div class="pages">
+        <a href="#landing">Home</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </div>
+    <div class="sub">
+        <form>
+            <div class="form-group">
+        <label for="subemail" class="fomr-label">Subscribe</label>
+        <input type="email" placeholder="Your Email" class="form-control">
+         </div>
+            <button  type="submit" class="submit">Subscribe</button>
+        
+        </form>
+    </div>
+    
+</footer>
+</body>
+</html>
